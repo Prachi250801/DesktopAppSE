@@ -1,0 +1,14 @@
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 110px;
+}
+
+.sem-head{
+	margin: 0;
+	text-align: center;
+	padding:20px 0px ;
+	font-weight: bold;
+}

@@ -22,7 +22,6 @@ function submitForm(e) {
 	temp.preference = cprefer[i];
 	input2.data.push(temp);
   }
-  
   const input3=JSON.stringify(input2.data)
   console.log(input3);
 }

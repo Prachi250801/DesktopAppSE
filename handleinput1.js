@@ -19,13 +19,13 @@ function submitForm(e) {
   
   });
 
-  let room=[],capacity=[];
-  for (let room1 of map1.keys()) {
-     room.push(room1);
-  }
-  for (let cap of map1.values()) {
-    capacity.push(cap);
- }
+//   let room=[],capacity=[];
+//   for (let room1 of map1.keys()) {
+//      room.push(room1);
+//   }
+//   for (let cap of map1.values()) {
+//     capacity.push(cap);
+//  }
 
   const times = document.getElementById("time").value;
   let ctime = times.split(",");
